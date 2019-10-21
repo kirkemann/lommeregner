@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lommeregner</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./assets/js/lommeregner.js" defer></script>
+
+    
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <div id="lommeregner">
+
+            <!-- TAL -->
+            <!-- button.tal[value=$]*10{$}     -->
+            <button class="tal" value="1">1</button>
+            <button class="tal" value="2">2</button>
+            <button class="tal" value="3">3</button>
+            <br>
+            <button class="tal" value="4">4</button>
+            <button class="tal" value="5">5</button>
+            <button class="tal" value="6">6</button>
+            <br>
+            <button class="tal" value="7">7</button>
+            <button class="tal" value="8">8</button>
+            <button class="tal" value="9">9</button>
+            <br>
+            <button class="tal" value="0">0</button>
+            <br><br>
+
+            <!-- OPERATORER -->
+            <button class="operator" value="plus">+</button>
+            <button class="operator" value="minus">-</button>
+            <button class="operator" value="gange">*</button>
+            <button class="operator" value="divider">/</button>
+            <button class="operator" value="ligmed">=</button>
+            <button class="operator" value="nulstil">CLEAR</button>
+
+            <br><br>
+
+            <!-- DISPLAY -->
+            <h2>Beregningen: </h2><span id="display"></span></h2>
+            <br><br>
+
+            <!-- RESULTAT -->
+            <h2>Resultatet: <span id="resultat"></span></h2>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
